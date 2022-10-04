@@ -1,5 +1,7 @@
 # 3rd place Solution for [It's Corn (PogChamps #3)](https://www.kaggle.com/competitions/kaggle-pog-series-s01e03/leaderboard)
 
+Solution summary : https://www.kaggle.com/competitions/kaggle-pog-series-s01e03/discussion/357519
+
 | Experiment    | Pretrained Model                    | img_size | int_lr | bs  | wd    | epochs | CV score | ensemble weight |
 | ------------- | ----------------------------------- | -------- | ------ | --- | ----- | ------ | -------- | --------------- |
 | NB_EXP_V2_007 | beit_large_patch16_224              | 224      | 2e-05  | 16  | 1e-08 | 16     | 0.82682  | 0.96109         |
@@ -29,7 +31,7 @@ TRAIN_AUG = A.Compose([
 ])
 ```
 
-Augmentations for validation :
+For validation I use the following transforms given below + 4x TTA (normal, hflip, vflip, hflip+vflip)
 
 ```python
 VALID_AUG = A.Compose([
