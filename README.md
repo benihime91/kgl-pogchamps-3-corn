@@ -1,6 +1,4 @@
-# kgl-pogchamps-3-corn
-
-## 3rd place Solution for [It's Corn (PogChamps #3)](https://www.kaggle.com/competitions/kaggle-pog-series-s01e03/leaderboard)
+# 3rd place Solution for [It's Corn (PogChamps #3)](https://www.kaggle.com/competitions/kaggle-pog-series-s01e03/leaderboard)
 
 | Experiment    | Pretrained Model                    | img_size | int_lr | bs  | wd    | epochs | CV score | ensemble weight |
 | ------------- | ----------------------------------- | -------- | ------ | --- | ----- | ------ | -------- | --------------- |
