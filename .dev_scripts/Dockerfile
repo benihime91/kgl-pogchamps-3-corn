@@ -16,7 +16,6 @@ RUN pip install -U ipywidgets
 RUN jupyter nbextension enable --py widgetsnbextension
 
 RUN pip install ml_collections ipyexperiments wandb
-RUN wandb login dada17887d4a4c82baeb59905969b7614d892bde
 
 WORKDIR /workspace
 
